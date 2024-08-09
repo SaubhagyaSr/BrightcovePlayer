@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Brightcove Player</title>
+</head>
+<body>
+    <div style="width: 1280px;">
+        <video-js
+          id="bcPlayer"
+          data-account="6272710389001"
+          data-player="G4Hm0s249"
+          data-embed="default"
+          controls=""
+          data-video-id="6358410662112"
+          data-playlist-id=""
+          data-application-id=""
+          width="1280" height="720"
+          class="vjs-fluid"></video-js>
+      </div>
+      <script
+        src="https://players.brightcove.net/6272710389001/G4Hm0s249_default/index.min.js">
+      </script>
+
+      <script>
+        // videojs.getPlayer('bcPlayer').ready(function(){
+        //     var mPlayer = this;
+        //     mPlayer.muted(true);
+        //     mPlayer.on('loadedmetadata', function(){
+        //         mPlayer.play();
+        //         mPlayer.muted(false);
+        //     });
+        // });
+      </script>
+</body>
+</html>
+
+
